@@ -1,0 +1,124 @@
+set_default_color|`o
+add_label_with_icon|big|Growmojis|left|1366|
+add_spacer|small|
+add_spacer|small|
+add_smalltext|`9You need to be Level 5 to get these Growmojis.``|left|
+add_smalltext_forced_alpha| (sigh) |0.5|left|
+add_smalltext_forced_alpha| (mad) |0.5|left|
+add_smalltext_forced_alpha| (smile) |0.5|left|
+add_smalltext_forced_alpha| (tongue) |0.5|left|
+add_smalltext_forced_alpha| (wow) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to be a Supporter to get these Growmojis.``|left|
+add_smalltext_forced_alpha| (no) |0.5|left|
+add_smalltext_forced_alpha| (shy) |0.5|left|
+add_smalltext_forced_alpha| (wink) |0.5|left|
+add_smalltext_forced_alpha| (music) |0.5|left|
+add_smalltext_forced_alpha| (lol) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to be a Super Supporter to get these Growmojis.``|left|
+add_smalltext_forced_alpha| (yes) |0.5|left|
+add_smalltext_forced_alpha| (love) |0.5|left|
+add_smalltext_forced_alpha| (megaphone) |0.5|left|
+add_smalltext_forced_alpha| (heart) |0.5|left|
+add_smalltext_forced_alpha| (cool) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need 10 friends to get this Growmoji.``|left|
+add_smalltext_forced_alpha| (kiss) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need 20 friends to get this Growmoji.``|left|
+add_smalltext_forced_alpha| (agree) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need 30 friends to get this Growmoji.``|left|
+add_smalltext_forced_alpha| (see-no-evil) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need 40 friends to get this Growmoji.``|left|
+add_smalltext_forced_alpha| (dance) |0.5|left|
+add_spacer|small|
+add_smalltext|`9You need 50 friends to get this Growmoji.``|left|
+add_smalltext_forced_alpha| (build) |0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (oops) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (sleep) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (punch) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (bheart) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (cry) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (bunny) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (cactus) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (pine) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (peace) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (terror) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (troll) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (fireworks) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (party) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (song) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (ghost) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (nuke) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (halo) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in an event.``|left|
+add_smalltext_forced_alpha| (lucky) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (eyes) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9This Growmoji can be found in a secret event.``|left|
+add_smalltext_forced_alpha| (weary) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (wl) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (grow) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (gems) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (gtoken) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (vend) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (football) | 0.5|left|
+add_spacer|small|
+add_smalltext|`9You need to purchase this Growmoji from the store.``|left|
+add_smalltext_forced_alpha| (ill) | 0.5|left|
+add_spacer|small|
+add_spacer|small|
+end_dialog|goalslist||Back|
+add_quick_exit|
