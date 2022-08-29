@@ -31,8 +31,4 @@ Note :
 - Server Mecha was made for only its in-house developers [Algonix, Mqhirr, Time, Ztz, Spect & Rebillion] if used by anyone else 10+ active memory leaks/backdoors will have to be activated against the user to turminate any leaks or unkown usages.
 
 Credit :
-GrowtopiaNoobs: For Packet types and some source bases
-GTPS 3: For bases of lock algorithm
-Beef: For Handlers and Events
-HellTopia: For SetSkin, Drop, and Trash bases
-
+GrowtopiaNoobs | GTPS 3 | GrowXYZ
