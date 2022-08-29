@@ -1,4 +1,4 @@
-print("Server Launcher (c) Growtopia Noobs")
+print("LocalHoster Growtopia (c) 2022")
 addRed=False
 try:
 	with open('C:\\Windows\\System32\\drivers\\etc\\hosts', 'r') as file:
