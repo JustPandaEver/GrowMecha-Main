@@ -56,10 +56,10 @@ inline void command_process(ENetPeer* peer, string cch) {
 			else if (cch == "/find" or cch.substr(0, 6) == "/find ") {
 				Send_::dialog_(peer, "set_default_color|`o\nadd_label_with_icon|big|`wFind item``|left|6016|\nadd_spacer|small|\nadd_textbox|`wEnter a word below to find the item|\nadd_text_input|item|`wItem Name:||30|\nadd_spacer|small|\nadd_checkbox|checkbox_find_seed|`rFind with Seed|0\nend_dialog|findid|Cancel|Find the item!|\nadd_quick_exit|\n");
 			}
-			else if (cch == "/position") {
+			else if (cch == "/pos") {
 				Send_::console_msg(peer, "Your current position :\nX: " + to_string(((PlayerInfo*)(peer->data))->x / 32) + "\nY: " + to_string(((PlayerInfo*)(peer->data))->y / 32));
 			}
-			else if (cch == "/trashall") {
+			else if (cch == "/trashinv") {
 				for (int i = 0; i < int(pInfo(peer)->currentInventorySize); i++) {
 					if (pInfo(peer)->inventory.items.at(i).itemID == 32 or pInfo(peer)->inventory.items.at(i).itemID == 18 or pInfo(peer)->inventory.items.at(i).itemID == 6336 or pInfo(peer)->inventory.items.at(i).itemID == 3204) continue;
 					pInfo(peer)->inventory.items.erase(pInfo(peer)->inventory.items.begin() + i);
@@ -67,7 +67,7 @@ inline void command_process(ENetPeer* peer, string cch) {
 				send_inv(peer, pInfo(peer)->inventory);
 			}
 			else {
-				Send_::console_msg(peer, "`4This command apears to not be in our systems, make sure to check /help, or /? for the working commands!");
+				Send_::console_msg(peer, "`4Unkown command, Type /help, /? to check what commands are actually valid");
 				return;
 			}
 		}
