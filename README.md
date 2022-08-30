@@ -35,3 +35,5 @@ Credit :
 GrowtopiaNoobs | GTPS 3 | GrowXYZ |
 
 GrowtopiaNoobs: For Bases
+GTPS 3: For Lock Algorithm Bases
+GrowXYZ: For Packets and Flags
