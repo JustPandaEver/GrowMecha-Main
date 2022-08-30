@@ -7,6 +7,7 @@
 - Old Growtopia Wrench
 - Improved packettype:10 (equip_item) with putting cloths on you to wear
 - Added SetSkin Action Handler
+- Added Old Growtopia Weather (without ads)
 - Improved Access World Lock (Exactly Like Growtopia's Handler)
 
 Requitments :
