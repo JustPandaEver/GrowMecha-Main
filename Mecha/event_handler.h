@@ -6,4 +6,10 @@
 #include <string>
 #include <experimental/filesystem>
 
-//empty space for events
+bool isGrowchEvent = false;
+bool isCometEvent = false;
+bool isHarvestEvent = false;
+bool isCarnivalEvent = false;
+bool isHalloweenEvent = false;
+bool isValentinesEvent = false;
+bool isPatrickEvent = false;

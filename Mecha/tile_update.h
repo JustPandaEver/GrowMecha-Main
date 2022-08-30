@@ -367,6 +367,32 @@ inline void tile_update(int x, int y, int tile_, int c_b, ENetPeer* peer) {
 					}
 				}
 
+				if (tile_ == 3212) {
+					bool iscontains = false;
+					search_inv(peer, 3210, 1, iscontains);
+					if (!iscontains) {
+						bool success = true;
+						save_inv_check(3210, 1, peer, success);
+						Send_::talk_bubble(peer, pInfo(peer)->netID, "`1You Picked Up the Heart of Ice", 0, false);
+						ENetPeer* currentPeer;
+						for (currentPeer = server->peers;
+							currentPeer < &server->peers[server->peerCount];
+							++currentPeer)
+						{
+							if (currentPeer->state != ENET_PEER_STATE_CONNECTED)
+								continue;
+							if (isHere(peer, currentPeer)) {
+
+								//put particle effect if needed for like legendary orb or other picking up or effect stuff
+							}
+						}
+					}
+					else {
+						bool success = true;
+						if (success) {
+						}
+					}
+				}
 				if (tile_ == 3200 or tile_ == 3204) {
 					if (itemDefs.at(tile_).blockType == BlockTypes::GIVING_TREE) { /*placed tree*/
 						giving_tree = true;

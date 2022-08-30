@@ -6,6 +6,7 @@
 #include <string>
 #include <experimental/filesystem>
 #include "player_base.h"
+#include "event_handler.h"
 using namespace std;
 
 enum ClothTypes {
@@ -483,6 +484,10 @@ inline void join_world(ENetPeer* peer, string act_, bool fixed_gateway = false, 
 				send_(peer, "action|log\nmsg|`oPlayers lower than level " + to_string(w_.w_level) + " can't enter " + w_.name + ".");
 				isvalid = 0;
 			} 
+			else if (act_ == "GROWCH" and not isGrowchEvent) {
+				send_(peer, "action|log\nmsg|`9Growch isnt here and his heart left with him, there is no reason for you to join.");
+				return;
+			}
 			else if (act_ == "TUTORIAL" and not pInfo(peer)->freshmen) {
 				send_(peer, "action|log\nmsg|`9You shouldn't be here, but if you forgot any basic we are here to help!");
 			}
