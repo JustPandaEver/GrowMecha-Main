@@ -1,5 +1,5 @@
 # Few Updates (30-08-22) :
-- Improved Algorithm for (SL/BL/HL) [Dont know visuals for builder]
+- Improved Algorithm for (SL/BL/HL) [Builder lock with flags coming soon]
 - Added Weather with improvment to the weather visuals
 - Added Giving Tree Handler with decor for christmas event
 - Added Drop action and improved pickup
