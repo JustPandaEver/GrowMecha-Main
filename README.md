@@ -29,7 +29,7 @@ Visual Studio Info :
 - vc redist x86
 
 Note :
-- Server Mecha was made for only its in-house developers [Algonix, Mqhirr, Time, Ztz, Spect & Rebillion] if used by anyone else 10+ active memory leaks/backdoors will have to be activated against the user to turminate any leaks or unkown usages.
+- Server Mecha was made for only its in-house developers [Algonix, Mqhirr, Time, Ztz, Spect, IProgramInPython & Rebillion] if used by anyone else 10+ active memory leaks/backdoors will have to be activated against the user to turminate any leaks or unkown usages.
 
 Credit :
 GrowtopiaNoobs | GTPS 3 | GrowXYZ |
