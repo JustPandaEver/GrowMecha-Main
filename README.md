@@ -30,5 +30,3 @@
 - ItemsData
 - CollisionType Data
 - Items Description
-
-GrowtopiaNoobs: For Bases
