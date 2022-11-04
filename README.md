@@ -1,8 +1,8 @@
-Run the project using:
+# 🔨 Run the project using:
 - Visual Studio => v2022
 - vc redist x86
 
-# To Do
+## 📜 To Do
 - [x] readable&clean code
 - [ ] inbuilt HTTPS service
 - [ ] MySQL Connection
@@ -12,7 +12,7 @@ Run the project using:
 - [x] Player Movements
 - [x] Role Support
 
-# Few Updates (30-08-22) :
+## 📝 Few Updates (30-08-22) :
 - Improved Algorithm for (SL/BL/HL) [Builder lock with flags coming soon]
 - Added Weather with improvment to the weather visuals
 - Added Giving Tree Handler with decor for christmas event
@@ -24,7 +24,7 @@ Run the project using:
 - Added Old Growtopia Weather (without ads)
 - Improved Access World Lock (Exactly Like Growtopia's Handler)
 
-# Requitments :
+## ⚙️ Requitments :
 - CoreData
 - ItemsData
 - CollisionType Data
