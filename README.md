@@ -34,3 +34,6 @@ https://discord.gg/EXbe8ybGzs
 - ItemsData
 - CollisionType Data
 - Items Description
+
+## Credits
+-MadePan for Bases
