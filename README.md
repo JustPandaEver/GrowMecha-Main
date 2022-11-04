@@ -1,3 +1,6 @@
+## Join Mecha's Discord
+https://discord.gg/EXbe8ybGzs
+
 # 🔨 Run the project using:
 - Visual Studio => v2022
 - vc redist x86
