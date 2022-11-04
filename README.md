@@ -11,6 +11,7 @@
 - [x] Events Handler
 - [x] Player Movements
 - [x] Role Support
+- [x] Growmoji Support
 
 ## 📝 Few Updates (30-08-22) :
 - Improved Algorithm for (SL/BL/HL) [Builder lock with flags coming soon]
