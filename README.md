@@ -1,3 +1,17 @@
+Run the project using:
+- Visual Studio => v2022
+- vc redist x86
+
+# To Do
+- [x] readable&clean code
+- [ ] inbuilt HTTPS service
+- [ ] MySQL Connection
+- [x] Working VariantList
+- [X] Login/Register
+- [x] Events Handler
+- [x] Player Movements
+- [x] Role Support
+
 # Few Updates (30-08-22) :
 - Improved Algorithm for (SL/BL/HL) [Builder lock with flags coming soon]
 - Added Weather with improvment to the weather visuals
@@ -10,30 +24,10 @@
 - Added Old Growtopia Weather (without ads)
 - Improved Access World Lock (Exactly Like Growtopia's Handler)
 
-Requitments :
+# Requitments :
 - CoreData
 - ItemsData
 - CollisionType Data
 - Items Description
 
-Role :
-- You can change the adminLevel by open the player json and change value of "adminLevel" array
-- 5 : Developer
-- 4 : Super Moderator
-- 3 : Moderator
-- 2 : VIP +
-- 1 : VIP
-
-Visual Studio Info :
-- Visual Studio => v2022
-- vc redist x86
-
-Note :
-- Server Mecha was made for only its in-house developers [Algonix, Mqhirr, Time, Ztz, Spect, IProgramInPython & Rebillion] if used by anyone else 10+ active memory leaks/backdoors will have to be activated against the user to turminate any leaks or unkown usages.
-
-Credit :
-GrowtopiaNoobs | GTPS 3 | GrowXYZ |
-
 GrowtopiaNoobs: For Bases
-GTPS 3: For Lock Algorithm Bases
-GrowXYZ: For Packets and Flags
